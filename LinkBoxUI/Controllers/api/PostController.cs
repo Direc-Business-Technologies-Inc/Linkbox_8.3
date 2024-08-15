@@ -464,7 +464,6 @@ namespace LinkBoxUI.Controllers.api
              
                 if (isrunproc == false)
                 {
-
                     proc.IsRunning = true;
                     proc.RunTime = DateTime.Now;
                     _context.SaveChanges();

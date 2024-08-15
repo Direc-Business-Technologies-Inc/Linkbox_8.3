@@ -397,3 +397,28 @@ D:\Project Files\DBTI\Linkbox_PL08\DomainLayer\obj\Debug\DomainLayer.csproj.Core
 D:\Project Files\DBTI\Linkbox_PL08\DomainLayer\obj\Debug\DomainLayer.dll
 D:\Project Files\DBTI\Linkbox_PL08\DomainLayer\obj\Debug\DomainLayer.pdb
 D:\Project Files\DBTI\Linkbox_PL08\DomainLayer\obj\Debug\DomainLa.5E103439.Up2Date
+D:\Projects Visual Studio\Linkbox_8.3\DomainLayer\bin\Debug\DomainLayer.dll
+D:\Projects Visual Studio\Linkbox_8.3\DomainLayer\bin\Debug\DomainLayer.pdb
+D:\Projects Visual Studio\Linkbox_8.3\DomainLayer\bin\Debug\AutoMapper.dll
+D:\Projects Visual Studio\Linkbox_8.3\DomainLayer\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Projects Visual Studio\Linkbox_8.3\DomainLayer\bin\Debug\Newtonsoft.Json.dll
+D:\Projects Visual Studio\Linkbox_8.3\DomainLayer\bin\Debug\System.Web.Helpers.dll
+D:\Projects Visual Studio\Linkbox_8.3\DomainLayer\bin\Debug\System.Web.Mvc.dll
+D:\Projects Visual Studio\Linkbox_8.3\DomainLayer\bin\Debug\System.Web.Razor.dll
+D:\Projects Visual Studio\Linkbox_8.3\DomainLayer\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Projects Visual Studio\Linkbox_8.3\DomainLayer\bin\Debug\System.Web.WebPages.dll
+D:\Projects Visual Studio\Linkbox_8.3\DomainLayer\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Projects Visual Studio\Linkbox_8.3\DomainLayer\bin\Debug\AutoMapper.xml
+D:\Projects Visual Studio\Linkbox_8.3\DomainLayer\bin\Debug\Newtonsoft.Json.pdb
+D:\Projects Visual Studio\Linkbox_8.3\DomainLayer\bin\Debug\Newtonsoft.Json.xml
+D:\Projects Visual Studio\Linkbox_8.3\DomainLayer\bin\Debug\System.Web.Helpers.xml
+D:\Projects Visual Studio\Linkbox_8.3\DomainLayer\bin\Debug\System.Web.Mvc.xml
+D:\Projects Visual Studio\Linkbox_8.3\DomainLayer\bin\Debug\System.Web.Razor.xml
+D:\Projects Visual Studio\Linkbox_8.3\DomainLayer\bin\Debug\System.Web.WebPages.xml
+D:\Projects Visual Studio\Linkbox_8.3\DomainLayer\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Projects Visual Studio\Linkbox_8.3\DomainLayer\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Projects Visual Studio\Linkbox_8.3\DomainLayer\obj\Debug\DomainLayer.csproj.AssemblyReference.cache
+D:\Projects Visual Studio\Linkbox_8.3\DomainLayer\obj\Debug\DomainLayer.csproj.CoreCompileInputs.cache
+D:\Projects Visual Studio\Linkbox_8.3\DomainLayer\obj\Debug\DomainLa.5E103439.Up2Date
+D:\Projects Visual Studio\Linkbox_8.3\DomainLayer\obj\Debug\DomainLayer.dll
+D:\Projects Visual Studio\Linkbox_8.3\DomainLayer\obj\Debug\DomainLayer.pdb

@@ -12,7 +12,6 @@ namespace DataAccessLayer.Class
         public static Company oCompany;
         public static string password = "B1Admin";
 
-
         public static long lRetCode { get; set; }
 
         //public static void ConnectViaDI()
