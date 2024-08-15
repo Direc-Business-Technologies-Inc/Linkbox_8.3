@@ -1,0 +1,125 @@
+﻿@model DomainLayer.ViewModels.ErrorLogsViewModel
+<section class="content-header">
+    <h1>
+        Error Logs
+    </h1>
+
+</section>
+<section class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="nav-tabs-custom">
+                <ul class="nav nav-tabs">
+                    <li class="hidden"><a href="#tab_1" data-toggle="tab">Current Errors</a></li>
+                    <li class="active"><a href="#tab_2" data-toggle="tab">List of Errors</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane" id="tab_1">
+                        <div class="box">
+                            <div class="box-header">
+                                <h3 class="box-title"><i class="fa fa-database"></i> Current Errors</h3>
+                            </div>
+                            <div class="box-body">
+                                <div class="box box-info">
+                                    <div class="box-header with-border" id="divOverallData">
+                                        <table class="table table-bordered table-striped col-md-12" id="error-list">
+                                            <thead>
+                                                <tr>
+                                                    <th>Id</th>
+                                                    <th>Create Date</th>
+                                                    <th>Error Message</th>
+                                                    @*<th class="w-5">Task</th>*@
+                                                    <th>Database</th>
+                                                    <th>Module</th>
+                                                    <th>Table</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @foreach (var error in Model.ErrorList.Where(x => x.Task == "UPLOAD_ERROR"))
+                                                {
+                                                    <tr>
+                                                        <td>@error.id</td>
+                                                        <td>@error.CreateDate</td>
+                                                        <td>@error.ErrorMsg</td>
+                                                        @*<td>@error.Task</td>*@
+                                                        <td>@error.Database</td>
+                                                        <td>@error.Module</td>
+                                                        <td>@error.Table</td>
+                                                    </tr>
+                                                }
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane active" id="tab_2">
+                        <div class="box">
+                            <div class="box-header">
+                                <h3 class="box-title"><i class="fa fa-database"></i> List of Errors</h3>
+                            </div>
+                            <div class="box-body">
+                                <div class="box box-info">
+                                    <div class="box-header with-border" id="divOverallData">
+                                        <table class="table table-bordered table-striped col-md-12" id="error-list-resolved">
+                                            <thead>
+                                                <tr>
+                                                    <th>Id</th>
+                                                    <th>Create Date</th>
+                                                    <th>Error Message</th>
+                                                    @*<th class="w-5">Task</th>*@
+                                                    <th>Value</th>
+                                                    <th>Module</th>
+                                                    <th>Table</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @foreach (var error in Model.ErrorList)
+                                                {
+                                                    <tr>
+                                                        <td>@error.id</td>
+                                                        <td>@error.CreateDate</td>
+                                                        <td>@error.ErrorMsg</td>
+
+                                                        @*<td>@error.Task</td>*@
+                                                        <td>@error.Database</td>
+                                                        <td>@error.Module</td>
+                                                        <td>@error.Table</td>
+                                                    </tr>
+                                                }
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts{
+    <script>
+        var table = $('#error-list').DataTable({
+            paging: true,
+            lengthChange: true,
+            searching: true,
+            ordering: true,
+            order: [[0, 'desc']],
+            info: true,
+            autoWidth: true
+        });
+        var table = $('#error-list-resolved').DataTable({
+            paging: true,
+            lengthChange: true,
+            searching: true,
+            ordering: true,
+            order: [[0, 'desc']],
+            info: true,
+            autoWidth: true
+        });
+    </script>
+}
